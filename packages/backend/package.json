@@ -1,0 +1,22 @@
+{
+  "name": "@diet-calc/backend",
+  "version": "1.0.0",
+  "description": "Backend API for diet calculator",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^3.12.0",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.0.0"
+  }
+}
