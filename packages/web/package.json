@@ -1,0 +1,27 @@
+{
+  "name": "@diet-calc/web",
+  "version": "1.0.0",
+  "description": "React web app for diet calculator",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.3.0",
+    "react-router-dom": "^6.8.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.1",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": ["react-app"]
+  },
+  "browserslist": ["last 2 versions"]
+}
