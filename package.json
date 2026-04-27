@@ -1,0 +1,11 @@
+{
+  "name": "diet-calculator-app",
+  "version": "1.0.0",
+  "description": "Cross-platform diet & weight loss calculator",
+  "private": true,
+  "workspaces": ["packages/backend", "packages/web", "packages/mobile"],
+  "scripts": {
+    "dev": "echo 'Starting development servers'",
+    "start": "yarn workspace @diet-calc/backend start"
+  }
+}
